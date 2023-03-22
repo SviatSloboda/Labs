@@ -15,9 +15,9 @@ def index():
 
 @app.route("/api/v1/hello-world-21")
 def HelloWorld():
-    return "<span style = 'color:blue; text-align:center;'>" \
-           "<h1>Hello World 21</h1>" \
-           "</span>"
+    return "<h1 style = 'color:blue; text-align:center;'>" \
+             "Hello World 21" \
+           "</h1>"
 
 
 def testing():
